@@ -11,6 +11,12 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 993px) {
     
+    form > input[type=submit] {
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
@@ -32,6 +38,12 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 992px) {
+
+    form > input[type=submit] {
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+    }
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
